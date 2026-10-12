@@ -1,0 +1,332 @@
+{
+  "version": "Text-V1.1",
+  "development_source": "Only original train_history items joined to existing items_dedup.jsonl; see text_v1_1_training_probe.json. Conservative literal aliases; English equivalents are explicit lexical synonyms, never inferred from images.",
+  "ignore_phrases": [
+    "新款",
+    "新品",
+    "包邮",
+    "促销",
+    "特价",
+    "优惠",
+    "限时",
+    "正品",
+    "代购",
+    "网红",
+    "超火",
+    "ins",
+    "chic",
+    "ulzzang",
+    "zara",
+    "vero moda",
+    "only",
+    "charles",
+    "keith",
+    "uniqlo",
+    "cachecache",
+    "daphne",
+    "armani",
+    "蓝色倾情",
+    "红色小象"
+  ],
+  "blocked_phrases": [
+    "假口袋",
+    "装饰口袋",
+    "仿真丝",
+    "仿羊毛",
+    "蕾丝边印花",
+    "配阔腿裤",
+    "配直筒裤",
+    "配牛仔裤",
+    "搭配半身裙"
+  ],
+  "groups": {
+    "colors and patterns": {
+      "black": [
+        "黑色",
+        "black"
+      ],
+      "white": [
+        "白色",
+        "white"
+      ],
+      "blue": [
+        "蓝色",
+        "blue"
+      ],
+      "light blue": [
+        "浅蓝色",
+        "light blue"
+      ],
+      "pink": [
+        "粉色",
+        "粉红色",
+        "pink"
+      ],
+      "red": [
+        "红色",
+        "red"
+      ],
+      "magenta": [
+        "玫红",
+        "玫红色"
+      ],
+      "gray": [
+        "灰色",
+        "gray",
+        "grey"
+      ],
+      "beige": [
+        "米色",
+        "米白色",
+        "beige"
+      ],
+      "green": [
+        "绿色",
+        "green"
+      ],
+      "solid": [
+        "纯色",
+        "solid color"
+      ],
+      "striped": [
+        "条纹",
+        "条紋",
+        "striped",
+        "stripes"
+      ],
+      "printed": [
+        "印花",
+        "printed"
+      ],
+      "plaid": [
+        "格子",
+        "格纹",
+        "plaid",
+        "checked"
+      ],
+      "polka dots": [
+        "波点",
+        "波點",
+        "polka dots"
+      ],
+      "color block": [
+        "拼色",
+        "撞色",
+        "color block"
+      ],
+      "floral": [
+        "碎花",
+        "floral"
+      ],
+      "burgundy": [
+        "酒红色"
+      ],
+      "champagne": [
+        "香槟色"
+      ],
+      "gold": [
+        "金色"
+      ],
+      "purple": [
+        "紫色"
+      ]
+    },
+    "silhouettes and proportions": {
+      "loose fit": [
+        "宽松",
+        "寬鬆",
+        "loose fit"
+      ],
+      "slim fit": [
+        "修身",
+        "slim fit"
+      ],
+      "tight fit": [
+        "紧身",
+        "tight fit"
+      ],
+      "oversized": [
+        "oversize",
+        "oversized"
+      ],
+      "cropped": [
+        "短款",
+        "cropped"
+      ],
+      "longline": [
+        "长款",
+        "longline"
+      ],
+      "mid length": [
+        "中长款"
+      ],
+      "high waist": [
+        "高腰",
+        "high waist",
+        "high waisted"
+      ],
+      "straight leg": [
+        "直筒"
+      ],
+      "wide leg": [
+        "阔腿",
+        "闊腿",
+        "wide leg"
+      ],
+      "ankle length": [
+        "九分"
+      ],
+      "asymmetric": [
+        "不规则",
+        "asymmetric"
+      ]
+    },
+    "materials and textures": {
+      "denim": [
+        "牛仔",
+        "denim"
+      ],
+      "knitted": [
+        "针织",
+        "針織",
+        "knitted"
+      ],
+      "lace": [
+        "蕾丝",
+        "蕾絲",
+        "lace"
+      ],
+      "chiffon": [
+        "雪纺",
+        "chiffon"
+      ],
+      "cotton": [
+        "纯棉",
+        "全棉",
+        "cotton"
+      ],
+      "linen": [
+        "亚麻",
+        "linen"
+      ],
+      "cotton linen blend": [
+        "棉麻"
+      ],
+      "wool": [
+        "羊毛",
+        "wool"
+      ],
+      "leather": [
+        "真皮",
+        "genuine leather"
+      ],
+      "velvet": [
+        "丝绒",
+        "金丝绒",
+        "velvet"
+      ],
+      "canvas": [
+        "帆布",
+        "canvas"
+      ],
+      "mesh": [
+        "网布",
+        "mesh"
+      ],
+      "silk": [
+        "真丝",
+        "丝绸",
+        "silk"
+      ],
+      "satin": [
+        "缎面",
+        "satin",
+        "绸缎"
+      ]
+    },
+    "construction and details": {
+      "v neck": [
+        "v领",
+        "v 领",
+        "v-neck",
+        "v neck"
+      ],
+      "round neck": [
+        "圆领",
+        "round neck"
+      ],
+      "long sleeves": [
+        "长袖",
+        "long sleeves"
+      ],
+      "short sleeves": [
+        "短袖",
+        "半袖",
+        "short sleeves"
+      ],
+      "sleeveless": [
+        "无袖",
+        "sleeveless"
+      ],
+      "pleated": [
+        "褶皱",
+        "褶裥",
+        "百褶",
+        "pleated"
+      ],
+      "pockets": [
+        "口袋",
+        "pockets",
+        "pocket"
+      ],
+      "lapel collar": [
+        "翻领"
+      ],
+      "double breasted": [
+        "双排扣",
+        "double breasted"
+      ],
+      "hooded": [
+        "连帽",
+        "hooded"
+      ],
+      "embroidery": [
+        "刺绣",
+        "embroidery"
+      ],
+      "fringe": [
+        "流苏",
+        "fringe"
+      ],
+      "cutouts": [
+        "镂空",
+        "cutouts"
+      ],
+      "bow": [
+        "蝴蝶结"
+      ],
+      "tie detail": [
+        "系带"
+      ],
+      "chain detail": [
+        "链条"
+      ],
+      "pointed toe": [
+        "尖头"
+      ],
+      "flat heel": [
+        "平底",
+        "平跟"
+      ],
+      "chunky heel": [
+        "粗跟"
+      ],
+      "high heel": [
+        "高跟"
+      ],
+      "distressed": [
+        "破洞"
+      ]
+    }
+  }
+}

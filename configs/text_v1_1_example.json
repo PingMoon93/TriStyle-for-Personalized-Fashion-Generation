@@ -1,0 +1,11 @@
+{
+  "version": "Text-V1.1",
+  "dictionary": "configs/text_v1_1_dictionary.json",
+  "headline_path": "/path/to/existing/matched_headlines.jsonl",
+  "headline_format": "matched_jsonl_original_id",
+  "item_info_path": "/path/to/existing/item_info.npy",
+  "top_k_per_group": 2,
+  "max_tokens": 77,
+  "t5_max_sequence_length": 256,
+  "prompt_cache_size": 4096
+}
