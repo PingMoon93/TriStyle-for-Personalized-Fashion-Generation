@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from cf_mmdit.text import AttributeExtractor, CategoryOnlyText, HistoryText, GROUPS, load_headlines, TokenBudget
+from tristyle.text import AttributeExtractor, CategoryOnlyText, HistoryText, GROUPS, load_headlines, TokenBudget
 
 DICTIONARY = Path(__file__).resolve().parents[1]/'configs/text_v1_1_dictionary.json'
 

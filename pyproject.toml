@@ -3,11 +3,11 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tristyle-cf-mmdit"
+name = "tristyle-fashion-generation"
 version = "0.1.0"
 description = "Text preference components for personalized fashion generation"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24"]
 
 [tool.setuptools.packages.find]
-include = ["cf_mmdit*"]
+include = ["tristyle*"]

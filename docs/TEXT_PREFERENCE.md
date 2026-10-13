@@ -51,7 +51,7 @@ split, history, user, category, and frequency map.
 ```python
 import json
 from pathlib import Path
-from cf_mmdit.text import AttributeExtractor, HistoryText
+from tristyle.text import AttributeExtractor, HistoryText
 
 attribute_dictionary = json.loads(Path("configs/text_v1_1_dictionary.json").read_text())
 extractor = AttributeExtractor(attribute_dictionary)

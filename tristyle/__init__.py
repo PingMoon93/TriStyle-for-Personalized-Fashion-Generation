@@ -1,4 +1,4 @@
-"""TriStyle / CF-MMDiT research code."""
+"""TriStyle personalized fashion generation research code."""
 
 from .text import AttributeExtractor, CategoryOnlyText, HistoryText, TokenBudget
 

@@ -1,6 +1,6 @@
 # TriStyle for Personalized Fashion Generation
 
-This initial public release contains the **CF-MMDiT Text-V1.1** preference component.
+This initial public release contains the **TriStyle Text-V1.1** preference component.
 It converts legal, same-category user-history headlines into a compact attribute
 preference prompt. It does not include datasets, checkpoints, generated images, or
 training outputs.
